@@ -1,0 +1,15 @@
+PDCA of isValid:
+P:1 min
+D:1 min
+C:
+A:
+
+PDCA of generateAllLines and generateLine
+P:30 min
+D:35 min
+C:在实现generateAllLines以及generateLine方法时，
+  在调整格式时花去10分钟，在调试测试环境时花去10分钟，
+  在实际编码时花去15分钟
+A:在编写方法时需要提前将环境测试完毕以方便之后的测试，
+  避免时间的不必要的浪费，遇到输出格式这方面问题时，
+  需要画图来
