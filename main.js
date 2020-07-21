@@ -26,9 +26,9 @@ function generateAllLines(start, end) {
 
 function generateLine(lineStart, lineEnd) {
   let str = "";
-  for (let i = start; i <= end; i++) {
-    str = str + i + "*" + end + "=" + i * end;
-    if (i != end) {
+  for (let i = lineStart; i <= lineEnd; i++) {
+    str = str + i + "*" + lineEnd + "=" + i * lineEnd;
+    if (i != lineEnd) {
       str += "\t";
     }
   }
